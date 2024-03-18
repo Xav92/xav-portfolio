@@ -1,6 +1,123 @@
-body{
-    background-color: aqua;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-image: url(images/stars-backgroud.jpeg);
+    background-size: 100%;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    color:#030303;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#wrapper { 
+    background-color: powderblue;
+    
+}
+
+header {
+    text-align: center;
+}
+
+nav {text-align: center;
+    font-weight: bold;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+a {text-decoration: none;
+    margin-block: 2em;
+}
+nav a {  text-decoration: none;
+    
+}
+nav a:link { color: #000066;}
+nav a:visited { color:#4b4c4d;}
+nav a:hover { color: #3262A3;}
+
+ul{
+    margin-left: 2em;
+    margin-top: 50px;
+    display: inline-block;
+    line-height: 2em;
+    font-weight: bold;
+}
+nav ul {list-style-type: none;}
+nav ul li{
+    display: inline;
+    margin: 1em;
+}
+
 h1{
-    color: brown;
+    background-color: blanchedalmond;
+    color: #d13310;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 5em;
+}
+#tittle{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: x-large;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;   
+}
+
+#myPicture {
+    width: 250px;
+    float: left;
+    margin-right: 1em;
+    margin-left:  1em; 
+    border-radius: 50%;
+    opacity: 1; 
+}
+
+main{color: #070706;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left; 
+    margin-left: 1em; 
+    margin-right: 1em;
+    overflow: hidden;   
+}
+
+p{
+    line-height: 2em;     
+}
+
+.row {
+    padding: 3px;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#github {
+    margin-left: 20%;
+}
+
+#linkedIn{
+    margin-left: 5em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 25em;
+    gap: 1em;
+    
+}
+
+textarea{
+    padding: 2em;
+    border: 1px solid black;
+    
 }
