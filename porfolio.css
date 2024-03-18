@@ -93,7 +93,7 @@ p{
     line-height: 2em;     
 }
 
-.row {
+.pic-project {
     padding: 3px;
     padding-bottom: 2em;
     text-align: center;
@@ -119,5 +119,16 @@ form{
 textarea{
     padding: 2em;
     border: 1px solid black;
+    
+}
+
+footer {
+    background-color: powderblue;
+    color: black;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 5px;
     
 }
